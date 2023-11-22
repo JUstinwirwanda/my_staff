@@ -1,0 +1,25 @@
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#navigation ul li {
+    float: right;
+}
+
+#navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; /* Increase this value to adjust the font size */
+}
+
+#navigation ul li a:hover {
+    background-color: #f71919;
+    color: rgb(0, 0, 0);
+}
